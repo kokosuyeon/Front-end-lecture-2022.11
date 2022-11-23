@@ -1,12 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>             <!-- html5d의 의미 -->
+<html lang="ko"> <!-- 웹페이지의 사용언어를 구글 검색 엔진에 제공 -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- 반응형 웹 -->
     <title>Hello World</title>
+    <script>
+        function a() {
+            alert("경고창을 띄웁니다.");
+        }
+    </script>
+    <style>
+        body    {
+            margin-left: 50px; margin-top 50px;
+        }
+    </style>
+
 </head>
-<body>
-    <h1>Hello World</h1>
+<body onload="a()">
+    <h1> style="color: blue";  Hello World</h1>
+    
+    <hr>
+    <p>하나의 문단입니다. </p>
+    <h3 title="header">H3 태그입니다. </h3>
+    <img src="../img/배경화면.png" alt="컴터">
+    <!-- 주석입니다. (Alt-Shift-A, Ctrl-/) -->
+    <!-- 컨트롤 + / -->
 </body>
 </html>
